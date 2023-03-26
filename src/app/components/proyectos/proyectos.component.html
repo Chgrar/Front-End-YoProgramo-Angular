@@ -4,7 +4,9 @@
         <div class="col"><!-- seccion proyectos -->
           <h3 class="titulos" >PROYECTOS:</h3>
           <br>
-          <h6 class="subtitulos" >Portfolio Argentina Programa</h6>
+          <li *ngFor="let proyectos of proyectosList">
+            <h6 class="subtitulos" >{{proyectos.descripcion}}</h6>
+          </li>
 
           <section class="bg-dark mt-4 p-3">
             <div class="container text-center">

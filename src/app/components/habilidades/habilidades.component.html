@@ -69,14 +69,16 @@
        </div>
        <div class="col">
          <!-- seccion educación -->
+         
          <h2 class="titulos" >HISTORIAL ACADÉMICO:</h2>
          <br>
-         <h4 class="subtitulos">Buenos Aires Ciudad, Programa "Codo a codo 4.0"</h4>
-         <h6 class="subtitulos">Programador Full Stack Python | 2022</h6>
-
+         <li *ngFor="let educacion of educacionList" >
+         <h4 class="subtitulos">{{educacion.institucion}}</h4>
+         <h6 class="subtitulos">{{educacion.titulo}} | {{educacion.fin}}</h6>
+        </li>
          <br>
 
-         <h4 class="subtitulos">Instituto F. Makaroff, Universidad de Lomas de Zamora</h4>
+         <!-- <h4 class="subtitulos">Instituto F. Makaroff, Universidad de Lomas de Zamora</h4>
          <h6 class="subtitulos">Técnico en protesis dental |2002</h6>
 
          <br>
@@ -87,7 +89,7 @@
          <br>
 
          <h4 class="subtitulos">Escuela Normal Nac.Sup. de Profesorado Almafuerte</h4>
-         <h6 class="subtitulos">Bachiller con orientación pedagógica| 1990</h6>
+         <h6 class="subtitulos">Bachiller con orientación pedagógica| 1990</h6> -->
 
          <section class="bg-dark mt-4 p-3">
            <div class="container text-center">

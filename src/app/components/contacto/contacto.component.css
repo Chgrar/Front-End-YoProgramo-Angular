@@ -18,7 +18,9 @@
         border: 4px solid rgba(54, 93, 200, 0.908);
     }
     
-    
+    .col{
+        list-style-type: none;
+    }
     
    
     

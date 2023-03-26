@@ -1,0 +1,112 @@
+{
+    "nombre":"Christian Ariel Gil",
+    "edad":50,
+    "titulo1":"Programador Full Stack",
+    "titulo2":"Técnico en Prótesis Dental",
+    "perfil personal":"PERFIL PERSONAL:",
+    "descripcion1":"Como Programador, desarrollo apps y páginas web. Y cuento con experiencia en docencia de niños y adultos en IT.",
+    "descripcion2":"Como Técnico en Protesis, brindo soporte a los odontologos con la generación de prótesis dentales desde mi propio laboratorio dental.",
+    "imgBanner":"../../../assets/img/favicon/20210221_111833.jpg",
+    "fotoBN":"../../../assets/img/favicon/fotoBN.jpg",
+    "direccion":"Sargento Cabral 2000, Canning, Buenos Aires, Argentina",
+    "mail":"lconesa@gmail.com",
+    "telefono":"1562626262",
+    "in":"@christiangil72",
+
+
+    "educacion":[
+        {
+        "id":1,
+        "institucion":"Buenos Aires, Programa codo a codo 4.0",
+        "titulo":"Programador Full Stack Python",
+        "fin":"2022"
+          
+        },
+        {
+        "id":2,
+        "institucion":"Instituto Makaroff",
+        "titulo":"Tecnico en Protesis dental",
+        "fin":"2002"    
+        },
+        {
+        "id":3,  
+        "institucion":"UBA",
+        "titulo":"Facultad de Medicina",
+        "fin":"hasta 2do año."   
+           },
+         {
+        "id":4,
+        "institucion":"Escuela Normal Nac.Sup. de Profesorado Almafuerte",
+        "titulo":"bachiller con orientacion pedagogica",
+        "fin":"1990" 
+            }
+
+    ],
+
+    "proyectos":[
+        {
+            "id":1,
+            "descripcion":"Portfolio Argentina Programa"
+        },
+        {
+            "id":2,
+            "descripcion":"Proyecto Pagina Inicial codo a codo"
+        }
+    ],
+
+     "lenguajes":[
+            {
+                "id":1,
+                "descripcion":"Python"
+            },
+            {
+                "id":2,
+                "descripcion":"Java Script"
+            },
+            {
+                "id":3,
+                "descripcion":"Ruby"
+            },
+            {
+                "id":4,
+                "descripcion":"Java"
+            }
+
+        ],
+
+    "trabajos":[
+        {
+            "id":1,
+            "puesto":"Dueño laboratorio de prótesis dental",
+            "empresa":"Laboratorio Dental Conesa",
+            "inicio":"2001",
+            "fin":"actual",
+            "descripcion":"Diseño, elaboración y reparación de prótesis fija, removibles, cromos, ortodoncia, etc. Gestión comercial de clientes"
+        },
+        {
+            "id":2,
+            "puesto":"Docente de cátedra",
+            "empresa":"Instituto F. Makaroff ",
+            "inicio":"2001",
+            "fin":"2003",
+            "descripcion":"Ayudante de la materia “Prácticas de prótesis fijas y removibles”, guiando y asistiendo a los alumnos en las clases con modalidad práctica y grupal."
+        },
+        {
+            "id":3,
+            "puesto":"Asistente dental",
+            "empresa":"Laboratorio Dental Ismael Conti ",
+            "inicio":"1990",
+            "fin":"2001",
+            "descripcion":"Elaboración de prótesis removibles, placas miorrelajantes composturas, rebasados, cubetas, retenedores, coronas en biolón y acrílico"
+        },
+        {
+            "id":4,
+            "puesto":"Instructor de computación",
+            "empresa":"Escuale nº1 San Justo-Instituto del Sol ",
+            "inicio":"1998",
+            "fin":"2001",
+            "descripcion":"A cargo de los cursos para Adultos y niños"
+        }
+    ]
+
+}

@@ -13,9 +13,7 @@
             </div>
 
             <div id="txtInfo" class="col">
-              <p>Sargento Cabral 3450,
-                Canning, Buenos Aires,
-                Argentina</p>
+              <p>{{miPortfolio.direccion}}</p>
             </div>
           </div>
         </div>
@@ -27,7 +25,7 @@
 
             </div>
             <div id="txtInfo" class="col">
-              <p><a href="ldconesa@gmail.com">ldocnesa@gmail.com</a></p>
+              <p><a href="ldconesa@gmail.com">{{miPortfolio.mail}}</a></p>
             </div>
           </div>
         </div>
@@ -39,7 +37,7 @@
 
             </div>
             <div id="txtInfo" class="col">
-              <p>+54 9 11 6215-6136</p>
+              <p>{{miPortfolio.telefono}}</p>
             </div>
           </div>
         </div>
@@ -51,7 +49,7 @@
 
             </div>
             <div id="txtInfo" class="col">
-              <p>@christiangil72</p>
+              <p>{{miPortfolio.in}}</p>
             </div>
           </div>
         </div>
@@ -64,13 +62,13 @@
          <!-- seccion lenguajes de programación -->
         <h2 class="titulos">LENGUAJES DE PROGRAMACION:</h2>
         <br>
-        <h6 class="subtitulosIzq">Python</h6>
+        
+        <li *ngFor="let lenguajes of lenguajesList">
+        <h6 class="subtitulosIzq">{{lenguajes.descripcion}}</h6>
+        </li>
+
         <br>
-        <h6 class="subtitulosIzq">Javascript</h6>
-        <br>
-        <h6 class="subtitulosIzq">Java</h6>
-        <br>
-        <h6 class="subtitulosIzq">Ruby</h6>
+      
        </section>
 
        <section class="bg-dark mt-4 p-3">
@@ -94,15 +92,15 @@
         <h1 class="titulos">EXPERIENCIA LABORAL:</h1>
         <br>
         
-        <h4 class="subtitulos">Dueño laboratorio de prótesis dental</h4>
-        <h6 class="subtitulos">Laboratorio Dental Conesa | 2001 - presente</h6>
-            <p>Diseño, elaboración y reparación de prótesis fija, removibles,
-              cromos, ortodoncia, etc</p> 
-            <p>Gestión comercial de clientes</p>
-
+        <li *ngFor="let trabajos of trabajoList">
+          <h4 class="subtitulos">{{trabajos.puesto}}</h4>
+            <h6 class="subtitulos">{{trabajos.empresa}} | {{trabajos.inicio}} - {{trabajos.fin}}</h6>
+            <p>{{trabajos.descripcion}}</p> 
+            
+        </li>
             <br>
 
-            <h4 class="subtitulos">Docente de cátedra</h4>
+            <!-- <h4 class="subtitulos">Docente de cátedra</h4>
              <h6 class="subtitulos">Instituto F. Makaroff | 2001-2003</h6>
                 <p>Ayudante de la materia “Prácticas de prótesis fijas y
                   removibles”, guiando y asistiendo a los alumnos en las clases
@@ -128,7 +126,7 @@
                   de Internet, Web y correo electrónico
                   </p> 
                 <p>Profesor del departamento de computación, a cargo de los
-                  cursos primarios de 1ro a 9no grado</p>
+                  cursos primarios de 1ro a 9no grado</p> -->
            
                   <section class="bg-dark mt-4 p-3">
                     <div class="container text-center">

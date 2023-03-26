@@ -44,7 +44,8 @@ import { EditProyectosComponent } from './components/botonProyectos/edit-proyect
 import { ModalProyectosComponent } from './modales/modal-proyectos/modal-proyectos.component';
 import { EditHobbiesComponent } from './components/botonHobbies/edit-hobbies/edit-hobbies.component';
 import { ModalHobbieComponent } from './modales/modal-hobbie/modal-hobbie.component';
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -93,7 +94,10 @@ import { ModalHobbieComponent } from './modales/modal-hobbie/modal-hobbie.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
