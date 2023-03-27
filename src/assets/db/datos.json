@@ -1,18 +1,20 @@
 {
-    "nombre":"Christian Ariel Gil",
-    "edad":50,
-    "titulo1":"Programador Full Stack",
-    "titulo2":"Técnico en Prótesis Dental",
-    "perfil personal":"PERFIL PERSONAL:",
-    "descripcion1":"Como Programador, desarrollo apps y páginas web. Y cuento con experiencia en docencia de niños y adultos en IT.",
-    "descripcion2":"Como Técnico en Protesis, brindo soporte a los odontologos con la generación de prótesis dentales desde mi propio laboratorio dental.",
-    "imgBanner":"../../../assets/img/favicon/20210221_111833.jpg",
-    "fotoBN":"../../../assets/img/favicon/fotoBN.jpg",
-    "direccion":"Sargento Cabral 2000, Canning, Buenos Aires, Argentina",
-    "mail":"lconesa@gmail.com",
-    "telefono":"1562626262",
-    "in":"@christiangil72",
+"Persona":[
 
+    {"nombreyapellido":"Christian Ariel Gil"},
+    {"edad":50},
+    {"titulo1":"Programador Full Stack"},
+    {"titulo2":"Técnico en Prótesis Dental"},
+    {"perfil personal":"PERFIL PERSONAL:"},
+    {"descripcion1":"Como Programador, desarrollo apps y páginas web. Y cuento con experiencia en docencia de niños y adultos en IT."},
+    {"descripcion2":"Como Técnico en Protesis, brindo soporte a los odontologos con la generación de prótesis dentales desde mi propio laboratorio dental."},
+    {"imgBanner":"../../../assets/img/favicon/20210221_111833.jpg"},
+    {"fotoBN":"../../../assets/img/favicon/fotoBN.jpg"},
+    {"direccion":"Sargento Cabral 2000, Canning, Buenos Aires, Argentina"},
+    {"mail":"lconesa@gmail.com"},
+    {"telefono":"1562626262"},
+    {"in":"@christiangil72"}
+],
 
     "educacion":[
         {
